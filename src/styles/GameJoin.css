@@ -1,0 +1,16 @@
+.container {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+}
+.container h1 {
+    font-size: 50px;
+}
+#MenuButton {
+    margin: 10px;
+    font-size: 20px;
+}
+#CreateButton {
+    margin: 10px;
+    font-size: 20px;
+}

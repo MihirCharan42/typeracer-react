@@ -1,0 +1,92 @@
+body {
+    background-color: #100F0F;
+    margin: 0;
+    overflow: hidden;
+}
+.night {
+    height: 60vh;
+    width: 60vw;
+    margin-top: 10%;
+    bottom: 0%;
+    margin: 0 auto;
+    box-shadow: 1px 2px 60px rgba(0, 0,0,4);
+    background: url('../assets/Img_1.png');
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.windows {
+
+}
+
+.IOS {
+    transform: scale(-1, 1);
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+}
+
+.car {
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    animation: suspension 1s linear infinite;
+}
+.container .night .car h1 {
+    font-size: 100px;
+    color: #D61C4E;
+}
+
+.surface {
+    height:  140px;
+    width: 500%;
+    background: url('../assets//Img_02.png');
+    position: absolute;
+    bottom: 0%;
+    background-repeat: repeat-x;
+    animation: moveRight 6s linear infinite;
+    
+}
+
+@keyframes moveRight {
+    100%{transform:translateX(-2950px);}
+}
+@keyframes suspension {
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+}
+.container h1 #car {
+    color: #100F0F;
+}
+.container h1 {
+    font-size: 50px;
+    color: #F1F1F1;
+}
+#MenuButton {
+    margin: 10px;
+    font-size: 20px;
+    background-color : #D61C4E;
+}
+#CreateButton {
+    margin: 10px;
+    font-size: 20px;
+}

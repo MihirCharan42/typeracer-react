@@ -1,0 +1,19 @@
+.container {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+}
+.input-name {
+    color : #F1F1F1
+}
+.container h1 {
+    font-size: 50px;
+}
+
+#CreateButton {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
